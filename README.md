@@ -5,5 +5,5 @@ Requisitos:
 -Tener instalado Visual Studio Code
 
 Para clonar el repositorio debes:
--git clone https://github.com/tu-usuario/Climun.git
+-git clone https://github.com/Brisboo1953/Climun.git
 -cd Climun
