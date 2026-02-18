@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #0077ff, #00c6ff);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    letter-spacing: 1px;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    background: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #005fcc;
+}
+
+.weather {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 25px auto;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.recommendations {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+
+.favorites {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+li {
+    padding: 8px 0;
+}
+
+.favorites li {
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+.forecast {
+    margin-top: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+#forecastContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.forecast-card {
+    background: #f2f2f2;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 18%;
+    margin-top: 10px;
+}
