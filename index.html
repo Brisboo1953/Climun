@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        El clima del mundo a solo un click de conocerlo
+    </header>
+
+    <main>
+        <section class="search-section">
+            <form id="searchForm">
+                <input type="text" id="cityInput" placeholder="Buscar ciudad..." required>
+                <button type="submit">Buscar</button>
+            </form>
+            <ul id="autocompleteList"></ul>
+        </section>
+
+        <section id="weatherSection" class="weather hidden">
+            <h2 id="cityName"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <img id="weatherIcon" alt="Icono clima">
+            <button id="favoriteBtn">⭐ Agregar a favoritos</button>
+        </section>
+
+        <section id="recommendationsSection" class="recommendations hidden">
+            <h3>Recomendaciones</h3>
+            <ul id="recommendationsList"></ul>
+        </section>
+        <section id="forecastSection" class="forecast hidden">
+            <h3>📅 Pronóstico 5 días</h3>
+            <div id="forecastContainer"></div>
+        </section>
+        
+
+        <section class="favorites">
+            <h3>⭐ Ciudades Favoritas</h3>
+            <ul id="favoritesList"></ul>
+            <button id="clearFavoritesBtn">Borrar favoritos</button>
+        </section>
+
+    </main>
+    <script src="functions.js"></script>
+</body>
+</html>
